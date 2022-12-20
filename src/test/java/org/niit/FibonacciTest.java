@@ -21,9 +21,9 @@ public class FibonacciTest {
 
     @Test
     public void checkFibonacci(){
-        int[] fbSeries = fibonacci.fibonacci(5);
+        int[] fiboSeries = fibonacci.fibonacci(5);
         int[] expected = {0,1,1,2,3};
-       assertArrayEquals(expected,fbSeries);
+       assertArrayEquals(expected,fiboSeries);
     }
 
 }
